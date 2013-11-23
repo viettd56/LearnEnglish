@@ -5,17 +5,8 @@
 *  disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 */
 
-currentPage = {};
-
-currentPage.init = function(){
-	WL.Logger.debug("MainPage :: init");
-};
-	
-currentPage.loadPage = function(pageIndex){
-	WL.Logger.debug("MainPage :: loadPage :: pageIndex: " + pageIndex);
-	pagesHistory.push("pages/MainPage.html");
-	$("#pagePort").load("pages/Page" + pageIndex + ".html", function(){
-		currentPage.init();
+loadPage = function(){
+	$("#pagePort").load("pages/Animal.html", function(){currentPage.init();
 	});
 };
 
