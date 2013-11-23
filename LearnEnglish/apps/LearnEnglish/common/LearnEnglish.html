@@ -10,6 +10,7 @@
     		<script>window.$ = window.jQuery = WLJQ;</script>
     	</head>
 	<body>
+	<div id="pagePort">
     <div id="nav" >
     <p class="title"><a href="#">Category</a></p>
     
@@ -17,7 +18,7 @@
     
     <div id="body">
     <ul>
-    	<li><input class="icon" type="image" name="Animal" src="images/Category/animal.png" onclick="currentPage.loadPage(1)">
+    	<li><input class="icon" type="image" name="Animal" src="images/Category/animal.png" onclick="loadPage();">
     		<input class="icon" type="image" name="Flower" src="images/Category/flower.png">
     		</li>
     	<li><input class="icon" type="image" name="City" src="images/Category/city.png">
@@ -53,7 +54,7 @@
  
         </ul>
     </div>
-	
+	</div>
 			
 			<script src="js/MainPage.js"></script>
 			<script src="js/initOptions.js"></script>
