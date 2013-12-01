@@ -1,0 +1,88 @@
+
+/* Stylesheet content from css/LearnEnglish.css in folder common */
+body
+{
+	margin: 0px;
+}
+#AppBody
+{
+	background-image:url(../images/background/background2.jpg);
+}
+#nav
+{
+	position:fixed;
+	background-color: rgb(67,96,156);
+	width:100%;
+	height:80px;
+	box-shadow: 0px 1px 50px #5E5E5E;
+	top:0px;
+}
+.title
+{
+	position:fixed;
+	color:#EDEDED;
+	font-family:verdana;
+	font-size:25px;
+	width:350px;
+	margin-top:30px;
+	margin-left:50px;
+	font-weight:bold;
+	float:left;
+}
+#navigation
+{
+	list-style-type:none; 
+}
+#menu 
+{
+	display:inline;
+	padding:10px;
+}
+#nav a
+{
+	font-family:verdana;
+	text-decoration:none;
+	color:#EDEDED;
+} 
+#nav a:hover 
+{
+	color:#BDBDBD;
+}
+#body 
+{
+	width:100%;
+	margin:0px auto;
+	margin-top:80px;
+}
+.icon
+{
+    float:left;
+    vertical-align:middle;
+    height:120px;
+    width:120px;
+    margin:10px;
+    border: 0px solid black;
+}
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+/* Stylesheet content from css/LearnEnglish.css in folder android */
+
+/* this CSS file extends the application CSS file found under common\css */
+
+/* body should stretch in an Android application */
+body {
+	height: auto;
+	min-height: 100%;
+	overflow: auto;
+}
+
+/*Worklight container div */
+#content {
+	height: auto;
+	min-height: 100%;
+	width: 100%;
+}
