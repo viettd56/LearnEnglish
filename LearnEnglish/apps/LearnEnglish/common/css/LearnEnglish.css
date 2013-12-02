@@ -17,7 +17,7 @@ body
 }
 .title
 {
-	position:fixed;
+	position:relative;
 	color:#EDEDED;
 	font-family:verdana;
 	font-size:25px;
