@@ -3,10 +3,19 @@
 body
 {
 	margin: 0px;
+	background-image:url(../images/background/Background12.jpg);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	background-size: 100px;
 }
 #AppBody
 {
-	background-image:url(../images/background/background2.jpg);
+	background-image:url(../images/background/Background12.jpg);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	background-size: 100px;
 }
 #nav
 {

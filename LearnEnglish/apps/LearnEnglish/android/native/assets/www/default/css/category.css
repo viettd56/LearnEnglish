@@ -3,7 +3,11 @@
 body 
 {
     margin:0px;
-    background-image:url(../images/background/background2.jpg)
+    background-image:url(../images/background/Background12.jpg);
+    background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	background-size: 100px;
 }
 #nav
 {
@@ -49,12 +53,14 @@ table
 }
 .word
 {
+	
 	font-size:25px;
 	font-family:"Verdana";
 	display:inline;
 }
 .meaning
 {
+	
 	font-size:20px;
 	font-family:"Comic Sans MS";
     display:inline;
@@ -62,5 +68,7 @@ table
 }
 .phonetic
 {
+	
 	font-size:20px;
+	color: black;
 }
