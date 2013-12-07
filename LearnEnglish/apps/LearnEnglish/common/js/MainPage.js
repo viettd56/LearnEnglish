@@ -1,12 +1,19 @@
-/*
-*  Licensed Materials - Property of IBM
-*  5725-G92 (C) Copyright IBM Corp. 2006, 2013. All Rights Reserved.
-*  US Government Users Restricted Rights - Use, duplication or
-*  disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
-*/
+currentPage = {};
 
-loadPage = function(){
-	$("#pagePort").load("pages/Animal.html", function(){currentPage.init();
+currentPage.init = function(){
+	WL.Logger.debug("MainPage :: init");
+	$(".icon").hide();
+	$(".icon").show(1500);
+};
+	
+currentPage.loadPage = function(pageIndex){
+	WL.Logger.debug("MainPage :: loadPage :: pageIndex: " + pageIndex);
+	pagesHistory.push("pages/MainPage.html");
+	var animate = $(".icon").hide(1500);
+	$.when(animate).done(function() {
+		$("#pagePort").load("pages/Page" + pageIndex + ".html", function(){
+		currentPage.init();
+	
+	});
 	});
 };
-
