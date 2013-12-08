@@ -9,7 +9,7 @@ var pagesHistory = [];
 var currentPage = {};
 
 function wlCommonInit(){
-	
+	$.cookie('style', '1');
 	$("#pagePort").load("pages/MainPage.html", function(){
 		currentPage.init();
 	});
