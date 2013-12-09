@@ -1,0 +1,123 @@
+
+/* Stylesheet content from css/category.css in folder common */
+body 
+{
+    margin:0px;
+    background-color:white;
+}
+#nav
+{
+	background-color: black;
+	width:100%;
+	height:80px;
+	position:fixed;
+	top:0px;
+}
+#foot
+{
+	background-color: black;
+	width:100%;
+	height:40px;
+	/*position:fixed;
+	bottom:0px;*/
+}
+#homebutton
+{
+    height:40px;
+    display:inline;
+    margin-left:10px;
+    margin-top:20px;
+}
+.title
+{
+	color:white;
+	font-family:"Lucida Console";
+	font-size:22px;
+	width:65%;
+	margin-top:30px;
+	margin-left:10px;
+	font-weight:bold;
+	text-align:center;
+}
+table
+{
+	border-bottom-style:solid;
+}
+#body 
+{
+	width:100%;
+	margin:0px auto;
+	margin-top:90px;
+}
+.icon
+{
+	border:2px solid black;
+}
+.word
+{
+	
+	font-size:25px;
+	font-family:"Verdana";
+	display:inline;
+}
+.meaning
+{
+	
+	font-size:20px;
+	font-family:"Comic Sans MS";
+    display:inline;
+    color: #2E8B57;
+}
+.phonetic
+{
+	
+	font-size:20px;
+	color: black;
+}
+.button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+	background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+	background-color:#63b8ee;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #3866a3;
+	display:inline-block;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:80px;
+	text-decoration:none;
+	text-align:center;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
+	background:-moz-linear-gradient( center top, #468ccf 5%, #63b8ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+	background-color:#468ccf;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+#center
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:85%;
+	margin-bottom: 5px;
+}
