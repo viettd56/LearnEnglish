@@ -2,7 +2,7 @@
 <html>
     	<head>
     		<meta charset="UTF-8">
-    		<title>Family</title>
+    		<title>GIA ĐÌNH</title>
     		<link rel="stylesheet" href="css/category.css">
     		<script>window.$ = window.jQuery = WLJQ;</script>
     	</head>
@@ -10,12 +10,12 @@
     	<div id="pagePort">
     		<div id="nav">    		   
                     <input id="homebutton" type="image" name="home" src="images/home.png" onclick="currentPage.back();">
-                    <a class="title">FAMILY</a>
+                    <a class="title">GIA ĐÌNH</a>
     		    </div>
     		<div id="body">
     			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/husband.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/husband.jpg" onclick="document.getElementById('husband').play()"></td>
     					<td align="center" width="100%"><a class="word">husband</a></td>
     				</tr>
     				<tr>
@@ -27,7 +27,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/wife.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/wife.jpg" onclick="document.getElementById('wife').play()"></td>
     					<td align="center" width="100%"><a class="word">wife</a></td>
     				</tr>
     				<tr>
@@ -39,7 +39,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/grandfather.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/grandfather.jpg" onclick="document.getElementById('grandfather').play()"></td>
     					<td align="center" width="100%"><a class="word">grandfather</a></td>
     				</tr>
     				<tr>
@@ -51,7 +51,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/grandmother.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/grandmother.jpg" onclick="document.getElementById('grandmother').play()"></td>
     					<td align="center" width="100%"><a class="word">grandmother</a></td>
     				</tr>
     				<tr>
@@ -63,7 +63,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/father.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/father.jpg" onclick="document.getElementById('father').play()"></td>
     					<td align="center" width="100%"><a class="word">father</a></td>
     				</tr>
     				<tr>
@@ -75,7 +75,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/mother.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/mother.jpg" onclick="document.getElementById('mother').play()"></td>
     					<td align="center" width="100%"><a class="word">mother</a></td>
     				</tr>
     				<tr>
@@ -87,7 +87,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/son.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/son.jpg" onclick="document.getElementById('son').play()"></td>
     					<td align="center" width="100%"><a class="word">son</a></td>
     				</tr>
     				<tr>
@@ -99,7 +99,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/daughter.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/daughter.jpg" onclick="document.getElementById('daughter').play()"></td>
     					<td align="center" width="100%"><a class="word">daughter</a></td>
     				</tr>
     				<tr>
@@ -111,7 +111,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/twin.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/twin.jpg" onclick="document.getElementById('twin').play()"></td>
     					<td align="center" width="100%"><a class="word">twin</a></td>
     				</tr>
     				<tr>
@@ -123,7 +123,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/sister.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/sister.jpg" onclick="document.getElementById('sister').play()"></td>
     					<td align="center" width="100%"><a class="word">sister</a></td>
     				</tr>
     				<tr>
@@ -135,7 +135,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/brother.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/brother.jpg" onclick="document.getElementById('brother').play()"></td>
     					<td align="center" width="100%"><a class="word">brother</a></td>
     				</tr>
     				<tr>
@@ -147,7 +147,7 @@
 			</table>
                 <table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Family/cousin.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Family/cousin.jpg" onclick="document.getElementById('cousin').play()"></td>
     					<td align="center" width="100%"><a class="word">cousin</a></td>
     				</tr>
     				<tr>
@@ -157,6 +157,20 @@
     					<td align="center" width="100%"><a class="meaning">Anh, em họ</a></td>
     				</tr>
 			</table>
+    		</div>
+    		<div>
+    			<video width="0" height="0" id="brother" src="sounds/Family/brother.mp3"></video>
+    			<video width="0" height="0" id="cousin" src="sounds/Family/cousin.mp3"></video>
+    			<video width="0" height="0" id="daughter" src="sounds/Family/daughter.mp3"></video>
+    			<video width="0" height="0" id="father" src="sounds/Family/father.mp3"></video>
+    			<video width="0" height="0" id="grandfather" src="sounds/Family/grandfather.mp3"></video>
+    			<video width="0" height="0" id="grandmother" src="sounds/Family/grandmother.mp3"></video>
+    			<video width="0" height="0" id="husband" src="sounds/Family/husband.mp3"></video>
+    			<video width="0" height="0" id="mother" src="sounds/Family/mother.mp3"></video>
+    			<video width="0" height="0" id="sister" src="sounds/Family/sister.mp3"></video>
+    			<video width="0" height="0" id="son" src="sounds/Family/son.mp3"></video>
+    			<video width="0" height="0" id="twin" src="sounds/Family/twin.mp3"></video>
+    			<video width="0" height="0" id="wife" src="sounds/Family/wife.mp3"></video>
     		</div>
     	</div>
     	

@@ -2,7 +2,7 @@
 <html>
     	<head>
     		<meta charset="UTF-8">
-    		<title>Sport</title>
+    		<title>THỂ THAO</title>
     		<link rel="stylesheet" href="css/category.css">
     		<script>window.$ = window.jQuery = WLJQ;</script>
     	</head>
@@ -10,12 +10,12 @@
     	<div id="pagePort">
     		<div id="nav">    		   
                     <input id="homebutton" type="image" name="home" src="images/home.png" onclick="currentPage.back();">
-                    <a class="title">SPORT</a>
+                    <a class="title">THỂ THAO</a>
     		    </div>
     		<div id="body">
     			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/baseball.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/baseball.jpg" onclick="document.getElementById('baseball').play()"></td>
     					<td align="center" width="100%"><a class="word">baseball</a></td>
     				</tr>
     				<tr>
@@ -27,7 +27,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/basketball.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/basketball.jpg" onclick="document.getElementById('basketball').play()"></td>
     					<td align="center" width="100%"><a class="word">basketball</a></td>
     				</tr>
     				<tr>
@@ -39,7 +39,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/boxing.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/boxing.jpg" onclick="document.getElementById('boxing').play()"></td>
     					<td align="center" width="100%"><a class="word">boxing</a></td>
     				</tr>
     				<tr>
@@ -51,7 +51,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/chess.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/chess.jpg" onclick="document.getElementById('chess').play()"></td>
     					<td align="center" width="100%"><a class="word">chess</a></td>
     				</tr>
     				<tr>
@@ -63,7 +63,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/cycling.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/cycling.jpg" onclick="document.getElementById('cycling').play()"></td>
     					<td align="center" width="100%"><a class="word">cycling</a></td>
     				</tr>
     				<tr>
@@ -75,7 +75,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/hockey.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/hockey.jpg" onclick="document.getElementById('hockey').play()"></td>
     					<td align="center" width="100%"><a class="word">hockey</a></td>
     				</tr>
     				<tr>
@@ -87,7 +87,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/jogging.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/jogging.jpg" onclick="document.getElementById('jogging').play()"></td>
     					<td align="center" width="100%"><a class="word">jog</a></td>
     				</tr>
     				<tr>
@@ -99,7 +99,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/running.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/running.jpg" onclick="document.getElementById('running').play()"></td>
     					<td align="center" width="100%"><a class="word">running</a></td>
     				</tr>
     				<tr>
@@ -111,7 +111,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/soccer.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/soccer.jpg" onclick="document.getElementById('soccer').play()"></td>
     					<td align="center" width="100%"><a class="word">soccer</a></td>
     				</tr>
     				<tr>
@@ -123,7 +123,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/surfing.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/surfing.jpg" onclick="document.getElementById('surfing').play()"></td>
     					<td align="center" width="100%"><a class="word">surfing</a></td>
     				</tr>
     				<tr>
@@ -135,7 +135,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/swimming.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/swimming.jpg" onclick="document.getElementById('swimming').play()"></td>
     					<td align="center" width="100%"><a class="word">swimming</a></td>
     				</tr>
     				<tr>
@@ -147,7 +147,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Sport/tennis.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Sport/tennis.jpg" onclick="document.getElementById('tennis').play()"></td>
     					<td align="center" width="100%"><a class="word">tennis</a></td>
     				</tr>
     				<tr>
@@ -157,6 +157,21 @@
     					<td align="center" width="100%"><a class="meaning">Quần vợt</a></td>
     				</tr>
 			</table>			
+    		</div>
+    		<div>
+    			<video width="0" height="0" id="baseball" src="sounds/Sport/baseball.mp3"></video>
+    			<video width="0" height="0" id="basketball" src="sounds/Sport/basketball.mp3"></video>
+    			<video width="0" height="0" id="boxing" src="sounds/Sport/boxing.mp3"></video>
+    			<video width="0" height="0" id="chess" src="sounds/Sport/chess.mp3"></video>
+    			<video width="0" height="0" id="cycling" src="sounds/Sport/cycling.mp3"></video>
+    			<video width="0" height="0" id="golf" src="sounds/Sport/golf.mp3"></video>
+    			<video width="0" height="0" id="hockey" src="sounds/Sport/hockey.mp3"></video>
+    			<video width="0" height="0" id="jogging" src="sounds/Sport/jogging.mp3"></video>
+    			<video width="0" height="0" id="running" src="sounds/Sport/running.mp3"></video>
+    			<video width="0" height="0" id="soccer" src="sounds/Sport/soccer.mp3"></video>
+    			<video width="0" height="0" id="surfing" src="sounds/Sport/surfing.mp3"></video>
+    			<video width="0" height="0" id="swimming" src="sounds/Sport/swimming.mp3"></video>
+    			<video width="0" height="0" id="tennis" src="sounds/Sport/tennis.mp3"></video>
     		</div>
     	</div>
     	
