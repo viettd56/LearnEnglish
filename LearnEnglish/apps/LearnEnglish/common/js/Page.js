@@ -43,3 +43,9 @@ currentPage.back = function(){
 	});
 	});
 };
+
+function test(name){
+	var sound = "sounds/Animal/" + name + ".mp3";
+	document.getElementById("sound").src=sound;
+	document.getElementById("sound").play();
+}

@@ -9,7 +9,7 @@ currentPage.init = function(){
 currentPage.loadPage = function(pageIndex){
 	WL.Logger.debug("MainPage :: loadPage :: pageIndex: " + pageIndex);
 	pagesHistory.push("pages/MainPage.html");
-	var animate = $(".icon").hide(1500);
+	var animate = $(".icon").show();
 	$.when(animate).done(function() {
 		$("#pagePort").load("pages/Page" + pageIndex + ".html", function(){
 		currentPage.init();

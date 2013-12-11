@@ -11,12 +11,13 @@
     		<div id="nav">    		   
                     <input id="homebutton" type="image" name="home" src="images/home.png" onclick="currentPage.back();">
                     <a class="title" id="title">ĐỘNG VẬT</a>
-     
     		    </div>
     		<div id="body">
     			<table>
     				<tr>
-    					<td rowspan="4"><img class="icon" src="images/Animal/cat.jpg"></td>
+    					<td rowspan="3">
+    						<input type="image" class="icon" src="images/Animal/cat.jpg" onclick="test('cat')">
+    					</td>
     					<td align="center" width="100%"><a class="word">cat</a></td>
     				</tr>
     				<tr>
@@ -24,18 +25,13 @@
     				</tr>
     				<tr>
     					<td align="center" width="100%"><a class="meaning">Con mèo</a></td>
-    				</tr>
-    				<tr>
-    					<td align="center" width="100%">
-    						<audio id="cat" src="sounds/cat.ogg"></audio>
-    						<input type="image" src="images/speaker.png" onclick="document.getElementById('cat').play()">
-    					</td>
-    				</tr>
-    						
+    				</tr>		
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="4"><img class="icon" src="images/Animal/dog.jpg"></td>
+    					<td rowspan="3">
+    						<img class="icon" src="images/Animal/dog.jpg" onclick="test('dog')">
+    					</td>
     					<td align="center" width="100%"><a class="word">dog</a></td>
     				</tr>
     				<tr>
@@ -44,16 +40,12 @@
     				<tr>
     					<td align="center" width="100%"><a class="meaning">Con chó</a></td>
     				</tr>
-    				<tr>
-    					<td align="center" width="100%">
-    						<audio id="dog" src="sounds/dog.mp3"></audio>
-    						<button onclick="document.getElementById('dog').play()">speaker</button>
-    					</td>
-    				</tr>
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/pig.jpg"></td>
+    					<td rowspan="3">
+    						<img class="icon" src="images/Animal/pig.jpg" onclick="test('pig')">
+    					</td>
     					<td align="center" width="100%"><a class="word">pig</a></td>
     				</tr>
     				<tr>
@@ -65,7 +57,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/fish.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/fish.jpg" onclick="document.getElementById('fish').play()"></td>
     					<td align="center" width="100%"><a class="word">fish</a></td>
     				</tr>
     				<tr>
@@ -77,7 +69,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/duck.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/duck.jpg" onclick="document.getElementById('duck').play()"></td>
     					<td align="center" width="100%"><a class="word">duck</a></td>
     				</tr>
     				<tr>
@@ -89,7 +81,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/mouse.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/mouse.jpg" onclick="document.getElementById('mouse').play()"></td>
     					<td align="center" width="100%"><a class="word">mouse</a></td>
     				</tr>
     				<tr>
@@ -101,7 +93,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/snail.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/snail.jpg" onclick="document.getElementById('snail').play()"></td>
     					<td align="center" width="100%"><a class="word">snail</a></td>
     				</tr>
     				<tr>
@@ -113,7 +105,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/bee.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/bee.jpg" onclick="document.getElementById('bee').play()"></td>
     					<td align="center" width="100%"><a class="word">bee</a></td>
     				</tr>
     				<tr>
@@ -125,7 +117,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/zebra.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/zebra.jpg" onclick="document.getElementById('zebra').play()"></td>
     					<td align="center" width="100%"><a class="word">zebra</a></td>
     				</tr>
     				<tr>
@@ -137,7 +129,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/shark.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/shark.jpg" onclick="document.getElementById('shark').play()"></td>
     					<td align="center" width="100%"><a class="word">shark</a></td>
     				</tr>
     				<tr>
@@ -149,7 +141,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/snake.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/snake.jpg" onclick="document.getElementById('snake').play()"></td>
     					<td align="center" width="100%"><a class="word">snake</a></td>
     				</tr>
     				<tr>
@@ -161,7 +153,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/giraffe.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/giraffe.jpg" onclick="document.getElementById('giraffe').play()"></td>
     					<td align="center" width="100%"><a class="word">giraffe</a></td>
     				</tr>
     				<tr>
@@ -173,7 +165,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/tortose.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/tortose.jpg" onclick="document.getElementById('tortoise').play()"></td>
     					<td align="center" width="100%"><a class="word">tortoise</a></td>
     				</tr>
     				<tr>
@@ -185,7 +177,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/dolphin.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/dolphin.jpg" onclick="document.getElementById('dolphin').play()"></td>
     					<td align="center" width="100%"><a class="word">Dolphin</a></td>
     				</tr>
     				<tr>
@@ -197,7 +189,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/crocodile.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/crocodile.jpg" onclick="document.getElementById('crocodile').play()"></td>
     					<td align="center" width="100%"><a class="word">crocodile</a></td>
     				</tr>
     				<tr>
@@ -209,7 +201,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/spider.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/spider.jpg" onclick="document.getElementById('spider').play()"></td>
     					<td align="center" width="100%"><a class="word">spider</a></td>
     				</tr>
     				<tr>
@@ -221,7 +213,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/chicken.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/chicken.jpg" onclick="document.getElementById('chicken').play()"></td>
     					<td align="center" width="100%"><a class="word">chicken</a></td>
     				</tr>
     				<tr>
@@ -233,7 +225,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/tiger.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/tiger.jpg" onclick="document.getElementById('tiger').play()"></td>
     					<td align="center" width="100%"><a class="word">tiger</a></td>
     				</tr>
     				<tr>
@@ -245,7 +237,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/horse.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/horse.jpg" onclick="document.getElementById('horse').play()"></td>
     					<td align="center" width="100%"><a class="word">horse</a></td>
     				</tr>
     				<tr>
@@ -257,7 +249,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/penguin.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/penguin.jpg" onclick="document.getElementById('penguin').play()"></td>
     					<td align="center" width="100%"><a class="word">penguin</a></td>
     				</tr>
     				<tr>
@@ -269,7 +261,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/elephant.png"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/elephant.png"  onclick="document.getElementById('elephant').play()"></td>
     					<td align="center" width="100%"><a class="word">elephant</a></td>
     				</tr>
     				<tr>
@@ -281,7 +273,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/lion.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/lion.jpg" onclick="document.getElementById('lion').play()"></td>
     					<td align="center" width="100%"><a class="word">lion</a></td>
     				</tr>
     				<tr>
@@ -293,7 +285,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/goose.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/goose.jpg" onclick="document.getElementById('goose').play()"></td>
     					<td align="center" width="100%"><a class="word">goose</a></td>
     				</tr>
     				<tr>
@@ -305,7 +297,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/rabbit.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/rabbit.jpg" onclick="document.getElementById('rabbit').play()"></td>
     					<td align="center" width="100%"><a class="word">rabbit</a></td>
     				</tr>
     				<tr>
@@ -317,7 +309,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/monkey.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/monkey.jpg" onclick="document.getElementById('monkey').play()"></td>
     					<td align="center" width="100%"><a class="word">monkey</a></td>
     				</tr>
     				<tr>
@@ -329,7 +321,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/crab.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/crab.jpg" onclick="document.getElementById('crab').play()"></td>
     					<td align="center" width="100%"><a class="word">crab</a></td>
     				</tr>
     				<tr>
@@ -341,7 +333,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/shrimp.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/shrimp.jpg" onclick="document.getElementById('shrimp').play()"></td>
     					<td align="center" width="100%"><a class="word">shrimp</a></td>
     				</tr>
     				<tr>
@@ -353,7 +345,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/ant.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/ant.jpg" onclick="document.getElementById('ant').play()"></td>
     					<td align="center" width="100%"><a class="word">ant</a></td>
     				</tr>
     				<tr>
@@ -365,7 +357,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/bear.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/bear.jpg" onclick="document.getElementById('bear').play()"></td>
     					<td align="center" width="100%"><a class="word">bear</a></td>
     				</tr>
     				<tr>
@@ -377,7 +369,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/jaguar.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/jaguar.jpg" onclick="document.getElementById('jaguar').play()"></td>
     					<td align="center" width="100%"><a class="word">jaguar</a></td>
     				</tr>
     				<tr>
@@ -389,7 +381,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/camel.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/camel.jpg" onclick="document.getElementById('camel').play()"></td>
     					<td align="center" width="100%"><a class="word">camel</a></td>
     				</tr>
     				<tr>
@@ -401,7 +393,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/deer.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/deer.jpg" onclick="document.getElementById('deer').play()"></td>
     					<td align="center" width="100%"><a class="word">deer</a></td>
     				</tr>
     				<tr>
@@ -413,7 +405,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/frog.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/frog.jpg" onclick="document.getElementById('frog').play()"></td>
     					<td align="center" width="100%"><a class="word">frog</a></td>
     				</tr>
     				<tr>
@@ -425,7 +417,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/goat.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/goat.jpg" onclick="document.getElementById('goat').play()"></td>
     					<td align="center" width="100%"><a class="word">goat</a></td>
     				</tr>
     				<tr>
@@ -437,7 +429,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/gorilla.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/gorilla.jpg" onclick="document.getElementById('gorilla').play()"></td>
     					<td align="center" width="100%"><a class="word">gorilla</a></td>
     				</tr>
     				<tr>
@@ -449,7 +441,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/eagle.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/eagle.jpg" onclick="document.getElementById('eagle').play()"></td>
     					<td align="center" width="100%"><a class="word">eagle</a></td>
     				</tr>
     				<tr>
@@ -461,7 +453,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/scorpion.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/scorpion.jpg" onclick="document.getElementById('scorpion').play()"></td>
     					<td align="center" width="100%"><a class="word">scorpion</a></td>
     				</tr>
     				<tr>
@@ -473,7 +465,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/seahorse.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/seahorse.jpg" onclick="document.getElementById('seahorse').play()"></td>
     					<td align="center" width="100%"><a class="word">seahorse</a></td>
     				</tr>
     				<tr>
@@ -485,7 +477,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/cow.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/cow.jpg" onclick="document.getElementById('cow').play()"></td>
     					<td align="center" width="100%"><a class="word">cow</a></td>
     				</tr>
     				<tr>
@@ -497,7 +489,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/buffalo.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/buffalo.jpg" onclick="document.getElementById('buffalo').play()"></td>
     					<td align="center" width="100%"><a class="word">buffalo</a></td>
     				</tr>
     				<tr>
@@ -509,7 +501,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Animal/wolf.jpg"></td>
+    					<td rowspan="3"><img class="icon" src="images/Animal/wolf.jpg" onclick="document.getElementById('wolf').play()"></td>
     					<td align="center" width="100%"><a class="word">wolf</a></td>
     				</tr>
     				<tr>
@@ -518,15 +510,13 @@
     				<tr>
     					<td align="center" width="100%"><a class="meaning">Chó sói</a></td>
     				</tr>
+
 			</table>
     		</div>
-    		<div id="foot">
-    			<div id="center">
-    				<button class="button" type="button" onclick="ChangeStyle1();">Màu 1</button>
-					<button class="button" type="button" onclick="ChangeStyle2();">Màu 2</button>
-					<button class="button" type="button" onclick="ChangeStyle3();">Màu 3</button>
-				</div>
-			</div>
+    		<div>
+    			<video width="0" height="0" id="sound" src="sounds/Animal/cat.mp3"></video>
+    		</div>
+
     	</div>
     	
     		<script src="js/jquery.cookie.js"></script>
