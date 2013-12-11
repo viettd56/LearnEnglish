@@ -2,7 +2,7 @@
 <html>
     	<head>
     		<meta charset="UTF-8">
-    		<title>Weather</title>
+    		<title>THỜI TIẾT</title>
     		<link rel="stylesheet" href="css/category.css">
     		<script>window.$ = window.jQuery = WLJQ;</script>
     	</head>
@@ -10,12 +10,12 @@
     	<div id="pagePort">
     		<div id="nav">    		   
                     <input id="homebutton" type="image" name="home" src="images/home.png" onclick="currentPage.back();">
-                    <a class="title">WEATHER</a>
+                    <a class="title">THỜI TIẾT</a>
     		    </div>
     		<div id="body">
     			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Weather/cloudy.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Weather/cloudy.jpg" onclick="document.getElementById('cloudy').play()"></td>
     					<td align="center" width="100%"><a class="word">cloudy</a></td>
     				</tr>
     				<tr>
@@ -27,7 +27,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Weather/flood.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Weather/flood.jpg" onclick="document.getElementById('flood').play()"></td>
     					<td align="center" width="100%"><a class="word">flood</a></td>
     				</tr>
     				<tr>
@@ -39,7 +39,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Weather/fog.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Weather/fog.jpg" onclick="document.getElementById('fog').play()"></td>
     					<td align="center" width="100%"><a class="word">fog</a></td>
     				</tr>
     				<tr>
@@ -51,7 +51,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Weather/rain.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Weather/rain.jpg" onclick="document.getElementById('rain').play()"></td>
     					<td align="center" width="100%"><a class="word">rain</a></td>
     				</tr>
     				<tr>
@@ -63,7 +63,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Weather/snow.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Weather/snow.jpg" onclick="document.getElementById('snow').play()"></td>
     					<td align="center" width="100%"><a class="word">snow</a></td>
     				</tr>
     				<tr>
@@ -75,7 +75,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Weather/storm.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Weather/storm.jpg" onclick="document.getElementById('storm').play()"></td>
     					<td align="center" width="100%"><a class="word">storm</a></td>
     				</tr>
     				<tr>
@@ -87,7 +87,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Weather/sunny.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Weather/sunny.jpg" onclick="document.getElementById('sunny').play()"></td>
     					<td align="center" width="100%"><a class="word">sunny</a></td>
     				</tr>
     				<tr>
@@ -99,7 +99,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Weather/tornado.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Weather/tornado.jpg" onclick="document.getElementById('tornado').play()"></td>
     					<td align="center" width="100%"><a class="word">tornado</a></td>
     				</tr>
     				<tr>
@@ -110,7 +110,19 @@
     				</tr>
 			</table>
     		</div>
+    		<div>
+    			<video width="0" height="0" id="cloudy" src="sounds/Weather/cloudy.mp3"></video>
+    			<video width="0" height="0" id="flood" src="sounds/Weather/flood.mp3"></video>
+    			<video width="0" height="0" id="fog" src="sounds/Weather/fog.mp3"></video>
+    			<video width="0" height="0" id="rain" src="sounds/Weather/rain.mp3"></video>
+    			<video width="0" height="0" id="snow" src="sounds/Weather/snow.mp3"></video>
+    			<video width="0" height="0" id="storm" src="sounds/Weather/storm.mp3"></video>
+    			<video width="0" height="0" id="sunny" src="sounds/Weather/sunny.mp3"></video>
+    			<video width="0" height="0" id="tornado" src="sounds/Weather/tornado.mp3"></video>
+    		</div>
     	</div>
     	
     		<script src="js/Page.js"></script>
+    		<script src="js/jquery.cookie.js"></script>
+			<script src="js/ChangeStyle.js"></script>
     	</body>

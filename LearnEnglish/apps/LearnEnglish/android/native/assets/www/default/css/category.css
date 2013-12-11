@@ -21,6 +21,13 @@ body
 	/*position:fixed;
 	bottom:0px;*/
 }
+#setting_button
+{
+	height:40px;
+    display:inline;
+    margin-right:10px;
+    margin-top:20px;
+}
 #homebutton
 {
     height:40px;

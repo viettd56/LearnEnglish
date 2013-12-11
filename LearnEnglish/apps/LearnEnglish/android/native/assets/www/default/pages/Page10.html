@@ -2,7 +2,7 @@
 <html>
     	<head>
     		<meta charset="UTF-8">
-    		<title>Material</title>
+    		<title>VẬT LIỆU</title>
     		<link rel="stylesheet" href="css/category.css">
     		<script>window.$ = window.jQuery = WLJQ;</script>
     	</head>
@@ -10,12 +10,12 @@
     	<div id="pagePort">
     		<div id="nav">    		   
                     <input id="homebutton" type="image" name="home" src="images/home.png" onclick="currentPage.back();">
-                    <a class="title">MATERIAL</a>
+                    <a class="title">VẬT LIỆU</a>
     		    </div>
     		<div id="body">
     			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/brick.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/brick.jpg" onclick="document.getElementById('brick').play()"></td>
     					<td align="center" width="100%"><a class="word">brick</a></td>
     				</tr>
     				<tr>
@@ -27,7 +27,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/clay.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/clay.jpg" onclick="document.getElementById('clay').play()"></td>
     					<td align="center" width="100%"><a class="word">clay</a></td>
     				</tr>
     				<tr>
@@ -39,7 +39,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/fabric.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/fabric.jpg" onclick="document.getElementById('fabric').play()"></td>
     					<td align="center" width="100%"><a class="word">fabric</a></td>
     				</tr>
     				<tr>
@@ -51,7 +51,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/iron.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/iron.jpg" onclick="document.getElementById('iron').play()"></td>
     					<td align="center" width="100%"><a class="word">iron</a></td>
     				</tr>
     				<tr>
@@ -63,7 +63,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/leather.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/leather.jpg" onclick="document.getElementById('leather').play()"></td>
     					<td align="center" width="100%"><a class="word">leather</a></td>
     				</tr>
     				<tr>
@@ -75,7 +75,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/metal.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/metal.jpg" onclick="document.getElementById('metal').play()"></td>
     					<td align="center" width="100%"><a class="word">metal</a></td>
     				</tr>
     				<tr>
@@ -87,7 +87,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/oil.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/oil.jpg" onclick="document.getElementById('oil').play()"></td>
     					<td align="center" width="100%"><a class="word">oil</a></td>
     				</tr>
     				<tr>
@@ -99,7 +99,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/paper.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/paper.jpg" onclick="document.getElementById('paper').play()"></td>
     					<td align="center" width="100%"><a class="word">paper</a></td>
     				</tr>
     				<tr>
@@ -111,7 +111,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/plank.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/plank.jpg" onclick="document.getElementById('plank').play()"></td>
     					<td align="center" width="100%"><a class="word">plank</a></td>
     				</tr>
     				<tr>
@@ -123,7 +123,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/stone.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/stone.jpg" onclick="document.getElementById('stone').play()"></td>
     					<td align="center" width="100%"><a class="word">stone</a></td>
     				</tr>
     				<tr>
@@ -135,7 +135,7 @@
 			</table>
 			<table>
     				<tr>
-    					<td rowspan="3"><img class="icon" src="images/Material/wood.jpg"></td>
+    					<td rowspan="3"><input type="image" class="icon" src="images/Material/wood.jpg" onclick="document.getElementById('wood').play()"></td>
     					<td align="center" width="100%"><a class="word">wood</a></td>
     				</tr>
     				<tr>
@@ -146,7 +146,23 @@
     				</tr>
 			</table>			
     		</div>
+    		<div>
+    			<video width="0" height="0" id="brick" src="sounds/Material/brick.mp3"></video>
+    			<video width="0" height="0" id="clay" src="sounds/Material/clay.mp3"></video>
+    			<video width="0" height="0" id="fabric" src="sounds/Material/fabric.mp3"></video>
+    			<video width="0" height="0" id="iron" src="sounds/Material/iron.mp3"></video>
+    			<video width="0" height="0" id="leather" src="sounds/Material/leather.mp3"></video>
+    			<video width="0" height="0" id="liquid" src="sounds/Material/liquid.mp3"></video>
+    			<video width="0" height="0" id="metal" src="sounds/Material/metal.mp3"></video>
+    			<video width="0" height="0" id="oil" src="sounds/Material/oil.mp3"></video>
+    			<video width="0" height="0" id="paper" src="sounds/Material/paper.mp3"></video>
+    			<video width="0" height="0" id="plank" src="sounds/Material/plank.mp3"></video>
+    			<video width="0" height="0" id="stone" src="sounds/Material/stone.mp3"></video>
+    			<video width="0" height="0" id="wood" src="sounds/Material/wood.mp3"></video>
+    		</div>
     	</div>
     	
     		<script src="js/Page.js"></script>
+    		<script src="js/jquery.cookie.js"></script>
+			<script src="js/ChangeStyle.js"></script>
     	</body>

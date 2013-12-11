@@ -12,6 +12,14 @@ body
 	abox-shadow: 0px 1px 50px #5E5E5E;
 	top:0px;
 }
+#setting_button
+{
+	height:40px;
+    display:inline;
+    right:10px;
+    top:25px;
+    position: fixed;
+}
 .title
 {
 	position:fixed;
