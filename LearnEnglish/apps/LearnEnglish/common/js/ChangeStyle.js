@@ -5,7 +5,7 @@ function ChangeStyle1(){
 	document.getElementById("body").style.background="#FFFFFF";
 	document.getElementById("body").style.color="#000000";
 	document.getElementById("homebutton").src="images/home.png";
-	$.cookie('style', '1');
+	$("#theme").attr("value", "1");
 };
 
 function ChangeStyle2(){
@@ -14,7 +14,7 @@ function ChangeStyle2(){
 	document.getElementById("body").style.background="#FFFFFF";
 	document.getElementById("body").style.color="#369CFA";
 	document.getElementById("homebutton").src="images/home2.png";
-	$.cookie('style', '2');
+	$("#theme").attr("value", "2");
 };
 
 function ChangeStyle3(){
@@ -23,7 +23,7 @@ function ChangeStyle3(){
 	document.getElementById("body").style.background="#FFFFFF";
 	document.getElementById("body").style.color="#000000";
 	document.getElementById("homebutton").src="images/home.png";
-	$.cookie('style', '3');
+	$("#theme").attr("value", "3");
 };
 function ChangeStyleDefault(){
 	document.getElementById("nav").style.background="#000000";
@@ -31,5 +31,5 @@ function ChangeStyleDefault(){
 	document.getElementById("body").style.background="#FFFFFF";
 	document.getElementById("body").style.color="#000000";
 	document.getElementById("homebutton").src="images/home.png";
-	$.cookie('style', 'default');
+	$("#theme").attr("value", "0");
 };

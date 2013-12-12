@@ -7,7 +7,7 @@ currentPage.init = function() {
 	WL.Logger.debug("Page :: init");
 	$("#body").hide();
 	$("#body").slideDown(1500);
-	var style = $.cookie('style');
+	var style = $("#theme").attr("value");
 	switch (style)
 	{
 	case "1":
